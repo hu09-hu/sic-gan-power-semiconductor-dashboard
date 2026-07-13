@@ -19,6 +19,10 @@ SOURCES = {
     "Wolfspeed": "https://www.wolfspeed.com/company/news-events/news/wolfspeed-announces-the-commercial-launch-of-200mm-silicon-carbide-materials-portfolio-unlocking-the-industrys-ability-to-manufacture-at-scale/",
     "onsemi": "https://www.onsemi.com/company/newsroom/news-and-insights/onsemi-launches-new-cooling-packaging-technology-to-drive-efficiency-in-power-hungry-applications",
     "Navitas": "https://navitassemi.com/navitas-unveils-5th-generation-sic-trench-assisted-planar-tap-technology/",
+    "GlobalWafers": "https://www.sas-globalwafers.com/gwc_news_20260303/",
+    "TSMC-VIS GaN": "https://pr.tsmc.com/chinese/news/3314",
+    "Episil 8-inch SiC": "https://www.cna.com.tw/news/afe/202409110307.aspx",
+    "TaiSiC Materials": "https://www.taisicmaterials.com/",
 }
 
 def check_source(url: str) -> dict[str, object]:
@@ -55,4 +59,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
